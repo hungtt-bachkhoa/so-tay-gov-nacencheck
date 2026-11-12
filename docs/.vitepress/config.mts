@@ -1,13 +1,19 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+   base: '/so-tay-gov-nacencheck/',
+
   lang: 'vi-VN',
   title: 'Sổ tay Gov Portal',
   description: 'Hướng dẫn vai trò, chức năng và quy trình nghiệp vụ của phân hệ Gov Portal',
   cleanUrls: true,
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', {
+  rel: 'icon',
+  type: 'image/svg+xml',
+  href: '/so-tay-gov-nacencheck/favicon.svg'
+}],
     ['meta', { name: 'theme-color', content: '#006b57' }]
   ],
   themeConfig: {
