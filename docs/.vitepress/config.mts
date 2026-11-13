@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'vi-VN',
   title: 'Sổ tay Gov Portal',
   description: 'Hướng dẫn vai trò, chức năng và quy trình nghiệp vụ của phân hệ Gov Portal',
-  cleanUrls: true,
+  cleanUrls: false,
   lastUpdated: true,
   head: [
     ['link', {
