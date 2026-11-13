@@ -35,6 +35,11 @@ function isActive(href: string) {
 
   return currentPath.value === target
 }
+
+function navigate(href: string) {
+  opened.value = false
+  window.location.assign(withBase(href))
+}
 </script>
 
 <template>
@@ -45,6 +50,7 @@ function isActive(href: string) {
         class="brand"
         :href="withBase('/')"
         :aria-label="`Về trang chủ ${site.title}`"
+        @click.stop.prevent="navigate('/')"
       >
         <span class="brand__mark" aria-hidden="true">
           <svg viewBox="0 0 48 48" role="img">
@@ -113,7 +119,7 @@ function isActive(href: string) {
         :href="withBase(tab.href)"
         :class="{ active: isActive(tab.href) }"
         :aria-current="isActive(tab.href) ? 'page' : undefined"
-        @click="opened = false"
+        @click.stop.prevent="navigate(tab.href)"
       >
         {{ tab.label }}
       </a>
