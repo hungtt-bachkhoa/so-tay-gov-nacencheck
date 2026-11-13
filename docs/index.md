@@ -22,11 +22,11 @@ description: Bức tranh tổng thể về phân hệ dành cho cơ quan quản 
 Website nghiệp vụ chủ yếu phục vụ sáu vai trò nội bộ. Mỗi người có phạm vi quyền khác nhau, dù có thể nhìn thấy cùng một mục trên thanh điều hướng.
 
 <div class="role-strip">
-  <a href="/vai-tro#thanh-tra-vien">Thanh tra viên</a>
-  <a href="/vai-tro#can-bo-quan-ly">Cán bộ quản lý</a>
-  <a href="/vai-tro#chuyen-vien-tham-dinh">Chuyên viên thẩm định</a>
-  <a href="/vai-tro#lanh-dao-phe-duyet">Lãnh đạo phê duyệt</a>
-  <a href="/vai-tro#quan-tri-he-thong">Quản trị hệ thống</a>
+  <a href="./vai-tro.html#thanh-tra-vien">Thanh tra viên</a>
+  <a href="./vai-tro.html#can-bo-quan-ly">Cán bộ quản lý</a>
+  <a href="./vai-tro.html#chuyen-vien-tham-dinh">Chuyên viên thẩm định</a>
+  <a href="./vai-tro.html#lanh-dao-phe-duyet">Lãnh đạo phê duyệt</a>
+  <a href="./vai-tro.html#quan-tri-he-thong">Quản trị hệ thống</a>
 </div>
 
 ## Luồng lớn của Gov Portal
